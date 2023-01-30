@@ -1,0 +1,70 @@
+//package File.loopmusicjava;
+
+import java.util.Scanner;
+
+public class Opciones {
+
+    public static void opciones(){ 
+
+        int opc;
+        Scanner in = new Scanner(System.in);  
+            
+        crearMenu.crearmenu();
+        //Canciones.canciones();
+
+        opc = in.nextInt();
+
+        String filepath1 = "audio/1elton.wav";
+        String filepath2 = "audio/2joni.wav";
+        String filepath3 = "audio/3bob.wav";
+        String filepath4 = "audio/4james.wav";
+        String filepath5 = "audio/audio7.wav";
+        String filepath6 = "audio/audio9.wav";
+ 
+        musicStaff musicObject = new musicStaff();
+        
+        switch (opc) {
+        case 1:
+            System.out.println("Reproduciendo: Border Song - Elton John (1970)");
+            musicObject.playMusic(filepath1);
+            break;
+
+        case 2:
+            System.out.println("Reproduciendo: A Case Of You - Joni Mitchell (1971)");
+            musicObject.playMusic(filepath2);
+            break;
+        
+        case 3:
+            System.out.println("Reproduciendo Knockin' On Heaven's Door - Bob Dylan (1973)");
+            musicObject.playMusic(filepath3);
+            break;
+        
+        case 4:
+        System.out.println("Reproduciendo You Can Close Your Eyes - James Taylor (1970)");
+        musicObject.playMusic(filepath4);
+        break;    
+    
+        case 5:
+        System.out.println("Reproduciendo Way Over Yonder - Carole King (1971)");
+        musicObject.playMusic(filepath5);
+        break;
+
+        case 6:
+        System.out.println("Reproduciendo Helpless - Neil Young (1970)");
+        musicObject.playMusic(filepath6);
+        break;
+
+
+        default:
+            break;
+        
+        }
+
+        //in.close();
+        
+       
+
+
+    
+    }
+}

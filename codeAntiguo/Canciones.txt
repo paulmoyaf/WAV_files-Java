@@ -1,0 +1,20 @@
+//package File.loopmusicjava;
+//package File.src;
+
+public class Canciones {
+
+    public static void canciones(){
+
+        System.out.println("\n******CANCIONERO********");
+        System.out.println("1.	Border Song - Elton John (1970)");
+        System.out.println("2.	A Case Of You - Joni Mitchell (1971)");
+        System.out.println("3.	Knockin' On Heaven's Door - Bob Dylan (1973)");
+        System.out.println("4.	You Can Close Your Eyes - James Taylor (1970)");
+        System.out.println("5.	Way Over Yonder - Carole King (1971)");
+        System.out.println("6.	Helpless - Neil Young (1970)");
+        //System.out.println("7.- Cancion Num 7:");
+        //System.out.println("8.- Cancion Num 8:");
+        System.out.print("\nElija el numero de la cancion: ");
+    }
+    
+}
