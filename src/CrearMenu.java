@@ -9,12 +9,12 @@ public class CrearMenu {
     MusicWav musicObject = new MusicWav(); // Para WAV
     //musicMP3 musicObject = new musicMP3(); // PARA MP3
     //String filepath1 = "audio/audioShort.mp3";
-    String filepath1 = "ErronkaReproductor/VS_Code/Java/audio/1audio.wav";
-    String filepath2 = "ErronkaReproductor/VS_Code/Java/audio/2audio.wav";
-    String filepath3 = "ErronkaReproductor/VS_Code/Java/audio/3audio.wav";
-    String filepath4 = "ErronkaReproductor/VS_Code/Java/audio/4audio.wav";
-    String filepath5 = "ErronkaReproductor/VS_Code/Java/audio/5audio.wav";
-    String filepath6 = "ErronkaReproductor/VS_Code/Java/audio/6audio.wav";
+    String filepath1 = "audio/1audio.wav";
+    String filepath2 = "audio/2audio.wav";
+    String filepath3 = "audio/3audio.wav";
+    String filepath4 = "audio/4audio.wav";
+    String filepath5 = "audio/5audio.wav";
+    String filepath6 = "audio/6audio.wav";
 
     Canciones cancion1 = new Canciones(1, "Border Song","Elton John", 1970);
     Canciones cancion2 = new Canciones(2, "A Case Of You","John Mitchell", 1970);
