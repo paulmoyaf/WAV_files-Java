@@ -1,4 +1,4 @@
-#wav_files-JAVA
+# WAV_files-Java
 Proyecto de reproduccion de archivos WAV en JAVA e incluye opcion de ingreso de monedas simulando un JUKEBOX.
 
 ## Getting Started
