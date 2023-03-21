@@ -1,3 +1,6 @@
+#wav_files-JAVA
+Proyecto de reproduccion de archivos WAV en JAVA e incluye opcion de ingreso de monedas simulando un JUKEBOX.
+
 ## Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
